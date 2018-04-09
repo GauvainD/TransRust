@@ -1,0 +1,15 @@
+[package]
+name = "transrust"
+version = "0.1.0"
+authors = ["Gauvain Devillez <gauvain.devillez@umons.ac.be>"]
+build = "build.rs"
+
+[dependencies]
+
+rayon = "1.0"
+graph = {path = "../graph"}
+time = "0.1"
+docopt = "0.8"
+serde="1.0"
+serde_derive="1.0"
+rustc-serialize = "0.3"
